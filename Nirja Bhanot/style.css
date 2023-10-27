@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50vh;
+  margin: 20px 10px;
+  padding: 20px;
+  background-color: rgb(252, 227, 181, 0.5);
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.title .life-span {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.title .headline {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.neerja-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px wheat;
+}
+.postalimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  background-color: rgba(230, 231, 237, 0.5);
+  border-radius: 20px;
+  margin: 20px 10px;
+  font-size: 20px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+.wrapper ul li {
+  margin: 10px;
+  list-style-type: square;
+}
+.footer {
+  background-color: rgba(75, 191, 55, 0.5);
+  border-radius: 20px;
+  margin: 20px 10px;
+  font-size: 20px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid black;
+}
+.aeroplane-img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  img {
+    position: relative;
+    left: 50px;
+  }
+}
